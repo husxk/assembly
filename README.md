@@ -13,7 +13,9 @@ Done with:
 
 
 $ nasm -f elf64 endline_counter.asm -o endline_counter.o
+
 $ ld -o endline_counter endline_counter.o 
+
 $ ./endline_counter  a.txt
 
 a.txt is an example input file
